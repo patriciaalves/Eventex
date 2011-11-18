@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+# Create your views here.
+from django.http import HttpResponse
+import os
+
+def homepage(request):
+  return HttpResponse(os.path.join(os.path.dirname(__file__), 'templates'))
