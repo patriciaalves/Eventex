@@ -1,0 +1,191 @@
+html,body {
+	margin:0;
+	padding:0;
+	background:#e2ead8 url("../images/fond.gif") no-repeat top center;
+	font-family:arial,sans-serif;
+	font-size:small;
+	color: #333;
+}
+
+img {
+	border: 0px;	
+}
+
+div#container {
+	position:relative;
+	margin:0 auto;
+	width: 806px;
+}
+
+div#spacer {
+	height: 100px;	
+}
+
+div#header {
+	padding:0em;
+	background: url("../images/fond_haut.gif") no-repeat bottom;
+	overflow: auto;
+}
+
+div#bandeau {
+	padding:0em;
+}
+
+div#vert {
+	clear: both;
+	display: inline-table;
+	padding: 0 0 10px 0;
+	width: 806px;
+	overflow: auto;
+	background: url("../images/sous_bandeau.jpg") no-repeat top;
+}
+
+div#intro {
+	font: 12px Georgia, "Times New Roman", Times, serif;
+	color: #5f5f5f;
+	line-height: 26px;
+	padding: 142px 26px 25px 30px;
+	width: 204px;
+	float: left;
+	background: url("../images/logo.png") no-repeat top;
+}
+
+div#menu {
+	width: 546px;
+	float: left;
+}
+
+div#content {
+	padding: 5px;
+	margin: 10px; /* bottom padding for footer */
+	width: 450px;
+	background-color: #ED925A ;
+	color: #333;
+	text-align: center;
+	float: left;
+	border-left: 50px solid #E06B1F;
+}
+
+div#footer {
+	position:absolute;
+	width:100%;
+	height:32px;
+	bottom:0; /* stick to bottom */
+	background: #e2ead8 url("../images/bas_page.gif") repeat-x;
+	text-align: center;
+	font: 11px Arial, Helvetica, sans-serif;
+	z-index: 0;
+}
+
+div#copy {
+	position:absolute;
+	width:100%;
+	height: 18px;
+	bottom:0; /* stick to bottom */
+	text-align: right;
+	z-index: 1;
+}
+
+h1 {
+	font: bold 16px Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+	margin: 2px;
+}
+h2 {
+	font: bold 16px Georgia, "Times New Roman", Times, serif;
+	color: #5f5f5f;
+	margin: 2px;
+}
+.txt {
+	font: 13px Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+	color: #000;
+	margin: 10px;
+}
+.txt2 {
+	font: 11px Georgia, "Times New Roman", Times, serif;
+	color: #5f5f5f;
+	margin: 10px;
+}
+
+.more {
+	font: 11px Tahoma, Geneva, sans-serif;
+	color: #5e7543;
+	text-align: right;
+	margin: 0px;
+}
+
+.lienDetail {
+	font: 11px Tahoma, Geneva, sans-serif;
+	color: #5e7543;
+	text-decoration: none;
+}
+
+.lienDetail:hover {
+	font: 11px Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#menu a {
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #a15944;
+	padding: 0 27px 0 0;
+	text-decoration: none;
+}
+#menu a:hover, #menu a:focus, #menu a:active {
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #EE9560;
+	padding: 0 27px 0 0;
+	text-decoration: none;
+}
+.linkUp1 {
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #a15944;
+	text-decoration: none;
+}
+.linkUp1:hover {
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #EE9560;
+	text-decoration: none;
+}
+.lienBas {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+.lienBas:hover {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #444;
+	text-decoration: none;
+}
+#resol {
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	position:fixed;
+	font-size: 10px;
+	width:230px;
+	top:0px;
+	left:1280px;
+	margin:0 auto;
+	background:#bfc6d9;
+	text-align:center;
+} 
+
+#resol h1 {
+	background:none;
+	font-size: 15px;
+	letter-spacing:3px;
+	padding:0px;
+	margin:0px;
+	border: 0px;
+} 
+
+#resol h2 {
+	font-size:10px;
+	letter-spacing:3px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	background:none;
+}
