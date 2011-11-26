@@ -22,10 +22,10 @@ def create(request):
 
     subscription = form.save()
 
-    #send_mail(subject=u'Cadastrado com Sucesso',
-              #message=u'Obrigado pela sua inscrição!',
-              #from_email=settings.DEFAULT_FROM_EMAIL,
-              #recipient_list=[subscription.email])
+    send_mail(subject=u'Cadastrado com Sucesso',
+              message=u'Obrigado pela sua inscrição!',
+              from_email=settings.DEFAULT_FROM_EMAIL,
+              recipient_list=[subscription.email])
 
     return HttpResponseRedirect(
         reverse('subscriptions:success', args=[ subscription.pk ]))
