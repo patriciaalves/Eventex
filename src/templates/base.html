@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Eventex</title>
+<link href="{{STATIC_URL}}css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div id="container">
+  <div id="spacer"></div>
+  <div id="header">
+    <div id="bandeau">
+      <div id="intro">
+         O maior evento de tecnologia para o público feminino das Américas!<br><br>
+          
+            Aqui programamos em:<br>
+            <a href='http://www.pythonbrasil.org.br/'><img src="{{STATIC_URL}}images/Django-logo.jpg" width='100'/></a>
+            <a href='http://www.djangobrasil.org/'><img src="{{STATIC_URL}}images/logo-python.png" width='100' style='border:none'/></a>
+      </div>
+      <div id="menu"><img src="{{STATIC_URL}}images/spacer.gif" width="10" height="16" /><br />
+          <a href="/" class="linkUp">Home</a> 
+<!--           <a href="javascript:showPage('_body.htm', '');" class="linkUp">Contato</a>  -->
+    </div>
+    <div id='content'>
+        {%  block  content   %}
+        {% endblock content  %}
+  </div>
+  
+    <div class="dynamicContent">
+      <div id="vert">
+        <table cellspacing="0" cellpadding="0" border="0" align="right" width="546">
+          <tbody><tr>
+            <td align="left" width="255" valign="top" style="background: #C0CDAF;"><h1>Entrevistas<br>
+            </h1></td>
+            <td width="30" style="background: #C0CDAF;">&nbsp;</td>
+            <td align="left" width="255" valign="top" style="background: #C0CDAF;"><h1>Atrações</h1></td>
+            <td width="6">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top"><p class="txt">
+                Aguarde para ver as principais entrevistas.</p>
+            <p class="more"><img height="8" width="15" src="images/puce1.gif"><a class="lienDetail" href="#"><!--View details--></a></p></td>
+            <td>&nbsp;</td>
+            <td align="left" valign="top">
+            <ul><li class='txt'>Palestras</li><li class='txt'>Mini-cursos</li><li class='txt'>Workshops</li></ul>
+            <p class="more"><img height="8" width="15" src="images/puce1.gif"><a class="lienDetail" href="#"><!--View details--></a>&nbsp;&nbsp;</p></td>
+            <td>&nbsp;</td>
+          </tr>
+        </tbody></table>
+      </div>
+    </div>
+  
+<!--  <div id="footer"><br /><a href="#" class="lienBas">Sobre nós</a> | <a href="#" class="lienBas">Contato</a></div>-->
+</div>
+</body>
+</html>

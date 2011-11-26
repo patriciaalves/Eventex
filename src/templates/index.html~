@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{%  block  content   %}
+  <p class="txt3">Bem-vindo ao Eventex!</p>
+  <p class="txt2"> O maior envento do ano.</p>
+  <p class="txt2"> Você não pode perder esta oportunidade!</p>
+  <p class="txt4"><a href='{% url subscriptions:subscribe %}'>Inscreva-se Já!!</a></p> 
+  <p class="txt2"> Para dúvidas e mais informações entre em contato como <a href='mailto:eventex@eventex.com.br'>eventex@eventex.com.br</a>
+{% endblock content  %}
