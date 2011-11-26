@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <p class='txt4'>Formulário de inscrição</p>
+    <form action="." method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <p> * Campos de preenchimento obrigatório </p>
+        <input type="submit" value="Inscrever-se!" class="button">
+    </form>
+{% endblock content %}
+
